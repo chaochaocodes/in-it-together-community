@@ -5,7 +5,8 @@ import Welcome from './InIt_components/Welcome';
 import './index.css';
 
 // Import your user_page component here
-import UserTemplate from './user_pages/juan_perez_EXAMPLE/UserTemplate'
+import UserTemplate from './user_pages/juan_perez_EXAMPLE/UserTemplate';
+import JoePage from './user_pages/javila35/JoePage';
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
           */}
           <Route path="/Juan_P">
             <UserTemplate />
+          </Route>
+
+          <Route path="/javila35">
+            <JoePage />
           </Route>
 
 
