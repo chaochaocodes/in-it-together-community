@@ -1,0 +1,54 @@
+.alicia {
+  text-align: left;
+  /* margin: 20px 20px 0 0;// */
+  padding: 1rem;
+  background-color: #EAD3D7;
+  position: relative;
+}
+
+/* .alicia main {
+  text-align: left;
+  margin: 20px 20px 0 0;
+  padding: 1rem;
+  position: relative;
+} */
+
+.profile {
+  font-weight: 300;
+
+}
+
+.profile #profile-card {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  width: 40%;
+  background: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 6px 15px 1px rgba(0,0,0,0.51);
+  -moz-box-shadow: 4px 6px 15px 1px rgba(0,0,0,0.51);
+  box-shadow: 4px 6px 15px 1px rgba(0,0,0,0.51);
+}
+
+.projects {
+  color: palevioletred;
+  font-size: 20px;
+  font-weight: 200px;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+h3 {
+  padding: 0 20px;
+}
+
+.project-card {
+  margin: 1rem;
+  padding: 1rem;
+  display: inline;
+  /* width: 300px;  /* if display: block */
+  background: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 6px 15px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 6px 15px 1px rgba(0,0,0,0.2);
+  box-shadow: 4px 6px 15px 1px rgba(0,0,0,0.2);
+}

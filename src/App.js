@@ -8,7 +8,7 @@ import "./index.css";
 import UserTemplate from './user_pages/juan_perez_EXAMPLE/UserTemplate';
 import JoePage from './user_pages/javila35/JoePage';
 import ShawnComponent from "./user_pages/shawn_huang_fernandes/components/ShawnHPage";
-import AliciaMain from "./user_pages/alicia_chao/components/AliciaMain";
+import AliciaPage from "./user_pages/alicia_chao/components/AliciaPage";
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
           </Route>
           
           <Route path="/Alicia_C">
-            <AliciaMain />
+            <AliciaPage />
           </Route>
 
         </Switch>
