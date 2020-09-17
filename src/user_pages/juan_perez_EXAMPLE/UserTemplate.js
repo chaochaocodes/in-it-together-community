@@ -23,7 +23,7 @@ const UserTemplate = () => {
     }
 
     return (
-        <div>
+        <div className="main">
             <h1>Hello, my name is {name}.</h1>
             <p>My github accounts can be found <a href={github}>here</a>.</p>
             <p>My interests include:</p>
