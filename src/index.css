@@ -15,3 +15,69 @@ code {
 .App {
   text-align: center;
 }
+
+ul {
+  list-style-type: none;
+}
+
+
+/* NAV BAR  */
+
+.sidenav {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden; /*Disable horizontal scroll*/
+  padding-top: 20px;
+}
+
+.sidenav a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  font-weight: 200;
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.sidenav a:hover {
+  background-color: #ccc; /* Dark grey backgorund on mouse-over */
+}
+
+.sidenav a:active {
+  background-color: #1167B1;
+  color: white;
+  font-weight: 500;
+}
+
+/* li.currentLink {
+  background-color: #1167B1;
+  color: white;
+  font-weight: 500;
+} */
+
+.link {
+  border: none;
+}
+/* .sidenav ul {
+  width: 200px
+} */
+
+.main {
+  margin-left: 240px;
+  padding: 20px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* .dino {
+  height: 500px;
+  width: 500px;
+} */
